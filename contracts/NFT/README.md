@@ -1,4 +1,4 @@
-# TonTune Contrtacts
+# TuneChi Contrtacts
 
 Contracts are based on TEP62 and TEP66 standards. Particularly, there is a customized contract for NFT Collection and basic NFT item contract. 
 
