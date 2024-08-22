@@ -72,7 +72,7 @@ const router = createBrowserRouter(
       ],
     },
   ],
-  { basename: '/tontune-telegram-web-app' },
+  { basename: '/' }, // Update this if you have a specific base path; otherwise, you can remove it.
 );
 
 function App() {
