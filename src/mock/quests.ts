@@ -9,7 +9,7 @@ export const questsMock = [
     },
   },
   {
-    title: 'Participate in 10 battles',
+    title: 'Participate in 10 versus',
     total: 10,
     completed: 3,
     reward: '100 Tune Coins',

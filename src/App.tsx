@@ -5,7 +5,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { Layout } from '@/layout';
 import { Artist } from '@/screens/Artist';
 import { Artists } from '@/screens/Artists';
-import { Battles } from '@/screens/Battles';
+import { Versus } from '@/screens/Versus';
 import { BuyNft } from '@/screens/BuyNft';
 import { Event } from '@/screens/Event';
 import { Events } from '@/screens/Events';
@@ -54,7 +54,7 @@ const router = createBrowserRouter(
         { path: '/my-tune', element: <MyTune /> },
         { path: '/leaderboard', element: <Leaderboard leaders={leadersMock} /> },
         { path: '/staking', element: <WorkInProgress /> },
-        { path: '/battles', element: <Battles /> },
+        { path: '/versus', element: <Versus /> },
         { path: '/tokens', element: <WorkInProgress /> },
         {
           path: '/events',

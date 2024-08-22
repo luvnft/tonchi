@@ -7,9 +7,9 @@ import pkg from '../package.json';
 
 import App from './App.tsx';
 
-console.log(`App: Tontune TMA | Version: ${pkg.version}`);
+console.log(`App: TonChi TMA | Version: ${pkg.version}`);
 
-const manifestUrl = 'https://raw.githubusercontent.com/Tontune/tontune-telegram-web-app/master/manifest.json';
+const manifestUrl = 'https://github.com/luvnft/tonchi/raw/master/manifest.json';
 
 const queryClient = new QueryClient({
   defaultOptions: { queries: { refetchOnWindowFocus: false } },

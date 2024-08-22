@@ -10,7 +10,7 @@ import tsconfigPaths from 'vite-tsconfig-paths';
 /// <reference types="vite-plugin-svgr/client" />
 export default defineConfig({
   plugins: [svgr(), react(), basicSsl(), nodePolyfills(), tsconfigPaths()],
-  base: 'https://tonchi-delta.vercel.app/',
+  base: 'https://tonchi.arvrtise.com',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
