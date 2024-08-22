@@ -46,7 +46,7 @@ export function Layout() {
           type="success"
           text={
             <>
-              <p>TonChi is a peer-to-peer music streaming platform powered by the TON blockchain. Discover and stream the new music industry in Telegram!</p>
+              <p>TonChi is a peer-to-peer music streaming platform powered by the TON blockchain.</p>
               <br />
               <p>🚀 Quick Start:</p>
               <ul className="ml-5 list-disc">
